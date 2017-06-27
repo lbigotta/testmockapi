@@ -1,0 +1,114 @@
+{
+	"variables": [],
+	"info": {
+		"name": "OpenBanking",
+		"_postman_id": "7f4e465f-42bf-a0bb-fd03-98fe23bd934e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://developer.openbanking.org.uk:443/reference-implementation/open-banking/v1.3/atms",
+			"request": {
+				"url": "https://developer.openbanking.org.uk:443/reference-implementation/open-banking/v1.3/atms",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "048569f2-6745-4bcc-9950-1fcfaadd122c",
+					"name": "atms",
+					"originalRequest": {
+						"url": "https://developer.openbanking.org.uk:443/reference-implementation/open-banking/v1.3/atms",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "age",
+							"key": "age",
+							"value": "42",
+							"description": "The age the object has been in a proxy cache in seconds"
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "max-age=60",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-encoding",
+							"key": "content-encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 27 Jun 2017 13:59:10 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "last-modified",
+							"key": "last-modified",
+							"value": "Tue, 27 Jun 2017 08:56:45 GMT",
+							"description": "The last modified date for the requested object, in RFC 2822 format"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "AmazonS3",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "vary",
+							"key": "vary",
+							"value": "Accept-Encoding",
+							"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+						},
+						{
+							"name": "via",
+							"key": "via",
+							"value": "1.1 d396c8f77f4715faf8da981158d9c756.cloudfront.net (CloudFront)",
+							"description": "Informs the client of proxies through which the response was sent."
+						},
+						{
+							"name": "x-amz-cf-id",
+							"key": "x-amz-cf-id",
+							"value": "lYgTINUTEUTyQqADzNcITZ8SEu8usAIyNGl8DS-X9h95uZcWdbUWQQ==",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-cache",
+							"key": "x-cache",
+							"value": "Hit from cloudfront",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 82,
+					"body": "{\n    \"meta\": {\n        \"LastUpdated\": \"2017-06-27T08:45:10.234Z\",\n        \"TotalResults\": 100,\n        \"License\": \"https://www.openbanking.org.uk/open-licence/\",\n        \"TermsOfUse\": \"https://www.openbanking.org.uk/terms/\",\n        \"Agreement\": \"Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions\"\n    },\n    \"data\": [\n        {\n            \"Organisation\": {\n                \"ParentOrganisation\": {\n                    \"OrganisationName\": {\n                        \"LegalName\": \"nostrud occaecat d\"\n                    },\n                    \"BIC\": \"YAYXOGTP07P\",\n                    \"LEI\": \"FX0598EO2P3BXNGCP530\"\n                },\n                \"Brand\": {\n                    \"TrademarkIPOCode\": \"EU\",\n                    \"TrademarkID\": \"off\"\n                }\n            },\n            \"ATMID\": \"R3aLF4fcoFm6lznMVntUsTHKz\",\n            \"Address\": {\n                \"StreetName\": \"Hermiston Locks\",\n                \"PostCode\": \"HM\",\n                \"Country\": \"JN\",\n                \"CountrySubDivision\": \"60977 Ankunding Parks\",\n                \"OptionalAddressField\": \"Cambridgeshire\",\n                \"TownName\": \"Lillamouth\",\n                \"BuildingNumberOrName\": \"68455 Effertz Spurs\"\n            },\n            \"GeographicLocation\": {\n                \"Latitude\": \"-4.3412\",\n                \"Longitude\": \"-69.0351\"\n            },\n            \"SupportedLanguages\": [\n                \"MX\",\n                \"VA\"\n            ],\n            \"ATMServices\": [\n                \"ChequeBookRequest\",\n                \"OrderStatement\",\n                \"CashWithdrawal\",\n                \"PINChange\"\n            ],\n            \"Currency\": [\n                \"MGA\"\n            ],\n            \"LocationCategory\": \"FillingStation\",\n            \"SiteName\": \"officia id exer\",\n            \"AdditionalATMServices\": [\n                \"pariatur dolor et ipsum sit\",\n                \"mollit\",\n                \"tempor con\",\n                \"cupidatat incididunt exercitation tempor proident\",\n                \"dolor do magna ad aute\"\n            ],\n            \"MinimumValueDispensed\": \"£10\",\n            \"SiteID\": \"deseru\",\n            \"BranchIdentification\": \"GJR3CGRMXE9EK13TP7JMYM9XZ\",\n            \"AccessibilityTypes\": [\n                \"LowerLevelCounter\",\n                \"InductionLoop\"\n            ]\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
