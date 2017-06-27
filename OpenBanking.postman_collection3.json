@@ -1,0 +1,141 @@
+{
+	"id": "7f4e465f-42bf-a0bb-fd03-98fe23bd934e",
+	"name": "OpenBanking",
+	"description": "",
+	"order": [
+		"25ba0133-bc6b-cf23-9174-9af445ac6740"
+	],
+	"folders": [],
+	"timestamp": 1498571745751,
+	"owner": "1260962",
+	"public": false,
+	"requests": [
+		{
+			"id": "25ba0133-bc6b-cf23-9174-9af445ac6740",
+			"headers": "",
+			"headerData": [],
+			"url": "https://developer.openbanking.org.uk:443/reference-implementation/open-banking/v1.3/atms",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7f4e465f-42bf-a0bb-fd03-98fe23bd934e",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://developer.openbanking.org.uk:443/reference-implementation/open-banking/v1.3/atms",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1498571975286,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": 238,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "max-age=60",
+							"description": ""
+						},
+						{
+							"name": "content-encoding",
+							"key": "content-encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 27 Jun 2017 13:59:10 GMT",
+							"description": ""
+						},
+						{
+							"name": "last-modified",
+							"key": "last-modified",
+							"value": "Tue, 27 Jun 2017 08:56:45 GMT",
+							"description": ""
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "AmazonS3",
+							"description": ""
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": ""
+						},
+						{
+							"name": "vary",
+							"key": "vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "via",
+							"key": "via",
+							"value": "1.1 7cddfedd82c4e2198668a64be4934fd0.cloudfront.net (CloudFront)",
+							"description": ""
+						},
+						{
+							"name": "x-amz-cf-id",
+							"key": "x-amz-cf-id",
+							"value": "TEAvW1ZRM0YBKO2pFUlXBDFOGSO6ASiCDSXKcbcsW69oYIbxAyrHFA==",
+							"description": ""
+						},
+						{
+							"name": "x-cache",
+							"key": "x-cache",
+							"value": "RefreshHit from cloudfront",
+							"description": ""
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n    \"meta\": {\n        \"LastUpdated\": \"2017-06-27T08:45:10.234Z\",\n        \"TotalResults\": 100,\n        \"License\": \"https://www.openbanking.org.uk/open-licence/\",\n        \"TermsOfUse\": \"https://www.openbanking.org.uk/terms/\",\n        \"Agreement\": \"Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions\"\n    },\n    \"data\": [\n        {\n            \"Organisation\": {\n                \"ParentOrganisation\": {\n                    \"OrganisationName\": {\n                        \"LegalName\": \"nostrud occaecat d\"\n                    },\n                    \"BIC\": \"YAYXOGTP07P\",\n                    \"LEI\": \"FX0598EO2P3BXNGCP530\"\n                },\n                \"Brand\": {\n                    \"TrademarkIPOCode\": \"EU\",\n                    \"TrademarkID\": \"off\"\n                }\n            },\n            \"ATMID\": \"R3aLF4fcoFm6lznMVntUsTHKz\",\n            \"Address\": {\n                \"StreetName\": \"Hermiston Locks\",\n                \"PostCode\": \"HM\",\n                \"Country\": \"JN\",\n                \"CountrySubDivision\": \"60977 Ankunding Parks\",\n                \"OptionalAddressField\": \"Cambridgeshire\",\n                \"TownName\": \"Lillamouth\",\n                \"BuildingNumberOrName\": \"68455 Effertz Spurs\"\n            },\n            \"GeographicLocation\": {\n                \"Latitude\": \"-4.3412\",\n                \"Longitude\": \"-69.0351\"\n            },\n            \"SupportedLanguages\": [\n                \"MX\",\n                \"VA\"\n            ],\n            \"ATMServices\": [\n                \"ChequeBookRequest\",\n                \"OrderStatement\",\n                \"CashWithdrawal\",\n                \"PINChange\"\n            ],\n            \"Currency\": [\n                \"MGA\"\n            ],\n            \"LocationCategory\": \"FillingStation\",\n            \"SiteName\": \"officia id exer\",\n            \"AdditionalATMServices\": [\n                \"pariatur dolor et ipsum sit\",\n                \"mollit\",\n                \"tempor con\",\n                \"cupidatat incididunt exercitation tempor proident\",\n                \"dolor do magna ad aute\"\n            ],\n            \"MinimumValueDispensed\": \"£10\",\n            \"SiteID\": \"deseru\",\n            \"BranchIdentification\": \"GJR3CGRMXE9EK13TP7JMYM9XZ\",\n            \"AccessibilityTypes\": [\n                \"LowerLevelCounter\",\n                \"InductionLoop\"\n            ]\n        },\n        {\n            \"Organisation\": {\n                \"ParentOrganisation\": {\n                    \"OrganisationName\": {\n                        \"LegalName\": \"Ut sit\"\n                    },\n                    \"LEI\": \"9TKSL0JABE4O46X4CO81\",\n                    \"BIC\": \"WGHTDDFQEC3\"\n                },\n                \"Brand\": {\n                    \"TrademarkIPOCode\": \"EU\",\n                    \"TrademarkID\": \"laboris consequat\"\n                }\n            },\n            \"ATMID\": \"70pYrtfEcfRM77c68s4v5MUsV\",\n            \"Address\": {\n                \"StreetName\": \"Marjorie Street\",\n                \"PostCode\": \"RE\",\n                \"Country\": \"YU\",\n                \"CountrySubDivision\": \"788 Brigitte Valleys\",\n                \"OptionalAddressField\": \"Buckinghamshire\",\n                \"TownName\": \"North Emmittland\",\n                \"BuildingNumberOrName\": \"52813 Bernhard Rue\"\n            },\n            \"GeographicLocation\": {\n                \"Latitude\": \"67.9882\",\n                \"Longitude\": \"-166.9378\"\n            },\n            \"SupportedLanguages\": [\n                \"TG\"\n            ],\n            \"ATMServices\": [\n                \"PINChange\",\n                \"ChequeDeposits\",\n                \"Balance\"\n            ],\n            \"Currency\": [\n                \"CRC\"\n            ],\n            \"BranchIdentification\": \"4HGEY4G27O8KPUZFHJ1IAW153\",\n            \"AccessibilityTypes\": [\n                \"InternalRamp\",\n                \"WheelchairAccess\",\n                \"AutomaticDoors\",\n                \"DriveThru\",\n                \"ExternalRamp\"\n            ],\n            \"MinimumValueDispensed\": \"£10\",\n            \"AdditionalATMServices\": [\n                \"in\",\n                \"eiusmod magna id\"\n            ],\n            \"LocationCategory\": \"FactoryOrOffice\",\n            \"SiteID\": \"officia labore quis repre\",\n            \"SiteName\": \"adipisicing magna \"\n        },\n        {\n            \"Organisation\": {\n                \"ParentOrganisation\": {\n                    \"OrganisationName\": {\n                        \"LegalName\": \"conse\"\n                    },\n                    \"BIC\": \"EYYDUSGS\",\n                    \"LEI\": \"N4GMRHBP61ZKHZ57UA52\"\n                },\n                \"Brand\": {\n                    \"TrademarkIPOCode\": \"EU\",\n                    \"TrademarkID\": \"ex cons\"\n                }\n            },\n            \"ATMID\": \"7q5AUs2EDvkuh6yMFhfQ6WCBJ\",\n            \"Address\": {\n                \"StreetName\": \"Dexter Plaza\",\n                \"PostCode\": \"NU\",\n                \"Country\": \"UI\",\n                \"CountrySubDivision\": \"016 Smitham Squares\",\n                \"OptionalAddressField\": \"Berkshire\",\n                \"TownName\": \"North Aniyahside\",\n                \"BuildingNumberOrName\": \"7388 Lynch Mill\"\n            },\n            \"GeographicLocation\": {\n                \"Latitude\": \"-18.6689\",\n                \"Longitude\": \"-121.0705\"\n            },\n            \"SupportedLanguages\": [\n                \"BZ\",\n                \"SR\"\n            ],\n            \"ATMServices\": [\n                \"MiniStatement\",\n                \"PINActivation\",\n                \"OrderStatement\"\n            ],\n            \"Currency\": [\n                \"AWG\",\n                \"MGA\",\n                \"QAR\",\n                \"SBD\",\n                \"MWK\"\n            ],\n            \"BranchIdentification\": \"ERNOGZLADNMNQFUOMTYEQL7VR\",\n            \"AdditionalATMServices\": [\n                \"sed ullamco laborum enim\",\n                \"anim officia nostrud ut ex\",\n                \"enim\",\n                \"deserunt tempor Lorem ad ullamco\"\n            ],\n            \"SiteName\": \"elit\",\n            \"SiteID\": \"eiusmod nisi laborum\",\n            \"AccessibilityTypes\": [\n                \"DriveThru\",\n                \"WheelchairAccess\"\n            ],\n            \"LocationCategory\": \"CoachStation\",\n            \"MinimumValueDispensed\": \"£100\"\n        }\n    ]\n}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "list",
+					"id": "bc2482e5-3603-ef19-fad9-f5227cb0def3",
+					"isSample": true,
+					"scrollToResult": false,
+					"runTests": false,
+					"request": {
+						"url": "https://developer.openbanking.org.uk:443/reference-implementation/open-banking/v1.3/atms",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
